@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda ecommerce</title>
+
+<!------------Bootstrab link----------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!------Font Awosame--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--------Headar section Start------------>
+    <header>
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo">
+                  </a>
+                  <form class="d-flex ">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                  </button>
+                  
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+       
+    </header>
+    <!-----------------Headar section end------------------>
+
+    <!------main section start-------->
+    <main>
+        <div class="container ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-info p-5">
+                  <div class="carousel-item active ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>MI LED TV 4A PRO 32</h1>
+                            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore repellendus quaerat fuga exercitationem qui asperiores adipisci ipsam minima fugit!</P>
+                            <h1>$1289</h1>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>MI LED TV 4A PRO 32</h1>
+                            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore repellendus quaerat fuga exercitationem qui asperiores adipisci ipsam minima fugit!</P>
+                            <h1>$1289</h1>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>MI LED TV 4A PRO 32</h1>
+                            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore repellendus quaerat fuga exercitationem qui asperiores adipisci ipsam minima fugit!</P>
+                            <h1>$1289</h1>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        <!-- ---Catagory section----- -->
+        <div class="container mt-3">
+            <div class="row">
+                <h1>Catagorius</h1>
+                <div class="col-md-4 mt-3">
+                   <div class="item d-flex justify-content-around bg-primary align-items-center rounded p-2">
+                       <div class="item-text">
+                           <h1 class="text-white">Watch</h1>
+                       </div>
+                       <div class="item-img">
+                           <img width="70px " src="./images/categories/watch.png" alt="">
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                   <div class="item d-flex justify-content-around bg-primary align-items-center rounded-3 p-2">
+                       <div class="item-text">
+                           <h1 class="text-white">Shoge</h1>
+                       </div>
+                       <div class="item-img">
+                           <img width="70px " src="./images/categories/shoes.png" alt="">
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                   <div class="item d-flex justify-content-around bg-primary align-items-center rounded p-2">
+                       <div class="item-text">
+                           <h1 class="text-white">Bag</h1>
+                       </div>
+                       <div class="item-img ">
+                           <img width="70px " src="./images/categories/bag.png" alt="">
+                       </div>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--------Shoge section items------------- -->
+        <div class="container">
+            <div class="row mt-3 mb-3">
+               <div class="hedaing-text d-flex justify-content-between mb-3">
+                   <h2>Shoge</h2>
+                   <h2>Se All</h2>
+               </div>
+               <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <!--------Bag section items------------- -->
+        <div class="container">
+            <div class="row mt-3 mb-3">
+               <div class="hedaing-text d-flex justify-content-between mb-3">
+                   <h2>Bag Catagorius</h2>
+                   <h5>Se All</h5>
+               </div>
+               <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Rebook Dart Mens Shoes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h3>$420</h3>
+                      <a href="#"  class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!----------Bootstrab Script link----------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
