@@ -11,6 +11,19 @@
     <!------Font Awosame--------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    .my-style{
+        transition: 1s;
+    }
+    .my-style:hover{
+        transform: scale(1.1);
+        
+    }
+</style>
+
 </head>
 <body>
     <!--------Headar section Start------------>
@@ -37,7 +50,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#shope-catagori">Product</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
@@ -115,10 +128,10 @@
         </div>
 
         <!-- ---Catagory section----- -->
-        <div class="container mt-3">
+        <div id="shope-catagori" class="container mt-3">
             <div class="row">
-                <h1>Catagorius</h1>
-                <div class="col-md-4 mt-3">
+                <h1 class="text-center">Catagorius</h1>
+                <div class="col-md-4 my-3">
                    <div class="item d-flex justify-content-around bg-primary align-items-center rounded p-2">
                        <div class="item-text">
                            <h1 class="text-white">Watch</h1>
@@ -128,7 +141,7 @@
                        </div>
                    </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 my-3">
                    <div class="item d-flex justify-content-around bg-primary align-items-center rounded-3 p-2">
                        <div class="item-text">
                            <h1 class="text-white">Shoge</h1>
@@ -138,7 +151,7 @@
                        </div>
                    </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 my-3">
                    <div class="item d-flex justify-content-around bg-primary align-items-center rounded p-2">
                        <div class="item-text">
                            <h1 class="text-white">Bag</h1>
@@ -154,13 +167,13 @@
 
         <!--------Shoge section items------------- -->
         <div class="container">
-            <div class="row mt-3 mb-3">
+            <div class="row my-3 mb-3">
                <div class="hedaing-text d-flex justify-content-between mb-3">
                    <h2>Shoge</h2>
                    <h2>Se All</h2>
                </div>
-               <div class="col-md-4 d-flex justify-content-center">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4 col-sm-12  my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
@@ -170,8 +183,8 @@
                     </div>
                   </div>
                </div>
-               <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4 col-sm-12 my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
@@ -181,8 +194,8 @@
                     </div>
                   </div>
                </div>
-               <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4 col-sm-12 my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
@@ -196,13 +209,13 @@
         </div>
         <!--------Bag section items------------- -->
         <div class="container">
-            <div class="row mt-3 mb-3">
+            <div class="row my-3 ">
                <div class="hedaing-text d-flex justify-content-between mb-3">
                    <h2>Bag Catagorius</h2>
                    <h5>Se All</h5>
                </div>
-               <div class="col-md-4 d-flex justify-content-center">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4  my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
@@ -212,8 +225,8 @@
                     </div>
                   </div>
                </div>
-               <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4 my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
@@ -223,8 +236,8 @@
                     </div>
                   </div>
                </div>
-               <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+               <div class="col-md-4 my-style py-3">
+                <div class="card shadow" style="width: 18rem;">
                     <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Rebook Dart Mens Shoes</h5>
